@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjetGrosseCorne.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4E05B01F-77D5-4DE8-8F6D-611D5F4072A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjetGrosseCorne.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjetGrosseCorneEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{131FFE44-AD8B-43BC-B6E8-DEBBD3446642}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjetGrosseCorne">
+      <UniqueIdentifier>{DFB36F1B-3D8F-49AC-9A7F-DF3BD61A7076}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjetGrosseCorne\Missile.cpp">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjetGrosseCorne\Missile.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjetGrosseCorne\MissileSpawner.cpp">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjetGrosseCorne\MissileSpawner.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorne.Build.cs">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorne.cpp">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorne.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorneCharacter.cpp">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorneCharacter.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorneGameMode.cpp">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjetGrosseCorne\ProjetGrosseCorneGameMode.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frequency.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+    <ClInclude Include="Loudness.h">
+      <Filter>Source\ProjetGrosseCorne</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
